@@ -3,6 +3,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+/* TODO: Implement a navbar that has posts, projects, github
+spec: The navbar should be vertical but one phone should turn into a menu bar
+      
+*/
+
+/* TODO: Load custom font */
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
