@@ -3,12 +3,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-/* TODO: Implement a navbar that has posts, projects, github
-spec: The navbar should be vertical but one phone should turn into a menu bar
+/* 
+TODO: Implement a navbar that has posts, projects, github
+SPEC: The navbar should be vertical but one phone should turn into a menu bar
       
 */
 
-/* TODO: Load custom font */
+/* 
+TODO: Load custom font 
+TODO: Add to vercel
+TODO: Google Analytics
+TODO: Add an A record to defunsm.ml 
+*/
+
 
 const Home: NextPage = () => {
   return (
