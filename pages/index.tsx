@@ -4,13 +4,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 
-import {
-  Slider,
-  SliderTrack,
-  SliderFilledTrack,
-  SliderThumb,
-  SliderMark,
-} from '@chakra-ui/react'
 
 
 /* 
@@ -26,21 +19,10 @@ TODO: Google Analytics
 TODO: Add an A record to defunsm.ml 
 */
 
-function MySlider() {
-  return (<Slider aria-label='slider-ex-1' defaultValue={30}>
-  <SliderTrack>
-    <SliderFilledTrack />
-  </SliderTrack>
-  <SliderThumb />
-</Slider>)
-}
-
-
 const Home: NextPage = () => {
   return (
     
     <div className={styles.container}>
-
       <NavBar />
 
       <Head>
