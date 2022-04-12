@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   return (
     
     <div className={styles.container}>
-      <NavBar />
+
 
       <Head>
         <title>defunSM</title>
@@ -33,9 +33,9 @@ const Home: NextPage = () => {
       
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Salman <a href="https://nextjs.org">Hossain</a> // <span className="rainbow-text alias">defunSM</span>
+          Salman // <span className="rainbow-text alias">defunSM</span>
         </h1>
-        
+        <NavBar />
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>

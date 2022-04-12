@@ -5,7 +5,13 @@
 
 function NavBar() {
     return (
-        <div>Nav Bar Placeholder</div>
+    <>
+        <button className="btn btn-blue">
+            posts
+        </button>
+        <button className="btn btn-blue">projects</button>
+        <button className="btn btn-blue">about</button>
+    </>
     )
 }
 
