@@ -5,13 +5,12 @@
 
 function NavBar() {
     return (
-    <>
-        <button className="btn btn-blue">
-            posts
-        </button>
-        <button className="btn btn-blue">projects</button>
-        <button className="btn btn-blue">about</button>
-    </>
+    <div>
+        <a href="/posts"><button className="btn">posts</button></a>
+        <a href="/projects"><button className="btn">projects</button></a>
+        <a href="/about"><button className="btn">about</button></a>
+        <a href="/contact"><button className="btn">contact</button></a>
+    </div>
     )
 }
 

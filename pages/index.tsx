@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
+import ProjectDiv from '../components/Projects'
 
 
 
@@ -36,6 +37,9 @@ const Home: NextPage = () => {
           Salman // <span className="rainbow-text alias">defunSM</span>
         </h1>
         <NavBar />
+        
+        <div className="top"></div>
+        <ProjectDiv />
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>

@@ -105,11 +105,41 @@ h1 {
   // Button
 
   .btn {
-    @apply font-bold py-2 px-4 rounded;
+    color: black;
+    font-family: "blank-regular";
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    margin-right: 0.7rem;
   }
-  .btn-blue {
-    @apply bg-blue-500 text-white;
+
+  .btn:hover {
+    text-decoration-line: underline;
   }
-  .btn-blue:hover {
-    @apply bg-blue-700;
+
+  .top {
+    // clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
+    background: black;
+    fill: black;
+    //position: absolute;
+    z-index: 1;
+    height: 1px;
+    width: 80%;
+    margin-top: 1rem;
+  }
+  .bottom {
+    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+    margin-top: -40px;
+  }
+
+  // css for ProjectDiv component
+  .project-container {
+      margin-top: 2rem;
+      align-items: left ;
+  }
+
+  .project-div {
+      font-family: "blank-regular";
+      font-weight: bold;
+      font-size: 2rem;
   }
